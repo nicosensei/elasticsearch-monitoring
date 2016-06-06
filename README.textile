@@ -1,7 +1,9 @@
 h1. elasticsearch-monitoring
 
-This fork takes the original https://github.com/abronner/elasticsearch-monitoring is targeted trowards Elasticsearch
-2.3.x and bundles the indexer as an Elasticsearch plugin.
+This fork takes the original https://github.com/abronner/elasticsearch-monitoring into a full Java approach:
+
+* uses Elasticsearch Java API 2.3.x
+* the indexer is deployed as an Elasticsearch plugin
 
 h2. Cluster monitoring with elasticsearch and kibana
 
