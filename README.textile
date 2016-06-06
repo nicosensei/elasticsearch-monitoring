@@ -7,13 +7,10 @@ This fork takes the original https://github.com/abronner/elasticsearch-monitorin
 
 h2. Cluster monitoring with elasticsearch and kibana
 
-This is an elegant way to monitor your elasticsearch cluster. See the screenshots below. 
-
 The idea is simple and straightforward:
-* get statistics via nodes stats API and index them back in elasticsearch, 
-* repeat it periodically (e.g. every 5 minutes),
+* perioducally get statistics via nodes stats API and index them back in Elasticsearch,
 * use ttl to automatically limit statistics history (e.g. 60 days),
-* visualize cluster statistics with kibana.
+* visualize cluster statistics with Kibana.
 
 h2. Installing and Running
 
