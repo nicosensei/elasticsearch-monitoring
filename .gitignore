@@ -1,0 +1,9 @@
+.project
+.settings
+.classpath
+EP.log
+target
+bin
+.idea
+*.iml
+*.orig
