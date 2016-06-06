@@ -5,7 +5,7 @@ This fork takes the original https://github.com/abronner/elasticsearch-monitorin
 * uses Elasticsearch Java API 2.3.x
 * the indexer is deployed as an Elasticsearch plugin
 
-h2. Cluster monitoring with elasticsearch and kibana
+h2. Elasticsearch cluster monitoring with Kibana
 
 The idea is simple and straightforward:
 * perioducally get statistics via nodes stats API and index them back in Elasticsearch,
